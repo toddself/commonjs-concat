@@ -41,6 +41,7 @@ function makeFilter(filter) {
 module.exports = function(baseDir, opts, cb) {
   if (typeof opts === 'function') {
     cb = opts;
+    opts = {};
   }
 
   var output = [];

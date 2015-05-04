@@ -1,3 +1,5 @@
+[![build status](https://secure.travis-ci.org/toddself/commonjs-concat.png)](http://travis-ci.org/toddself/commonjs-concat)
+
 # commonjs-concat
 
 Take a directory of files and create a single file which exports all the files in the directory structure.

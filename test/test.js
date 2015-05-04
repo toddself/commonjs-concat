@@ -12,7 +12,7 @@ test('no rel', function(t) {
 
   concat('./fixtures', {
     relative: false,
-    fileFilter: '*json'
+    includeFile: '*json'
   }, function(err, concated) {
     concated.split('\n').forEach(function(file){
       t.notEqual(results.indexOf(file), -1, file+' located');
@@ -30,7 +30,7 @@ test('rel', function(t) {
 
   concat('./fixtures', {
     relative: true,
-    fileFilter: '*json'
+    includeFile: '*json'
   }, function(err, concated) {
     concated.split('\n').forEach(function(file){
       t.notEqual(results.indexOf(file), -1, file+' located');

@@ -28,6 +28,19 @@ exports.testing = require('./testing.json');
 exports.testing1 = require('./more/testing.js');
 ```
 
+```
+Usage:
+    cjs-concat PATH [options]
+
+Options:
+    -h, --help         print usage information
+    -v, --version      show version info and exit
+    -o, --output       Write output to file, default: stdout
+    -d, --ignoreDir    Ignore directories, default: node_modules
+    -f, --includeFile  Include other file patterns. default: *.js
+    --no-relative      Make paths relative to PATH
+```
+
 ### API
 
 ```js

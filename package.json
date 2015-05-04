@@ -1,6 +1,6 @@
 {
   "name": "commonjs-concat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "take a directory of common js files and make a single file to export them all",
   "main": "index.js",
   "bin": {
